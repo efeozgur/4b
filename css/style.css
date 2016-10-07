@@ -1,0 +1,36 @@
+@charset "utf-8";
+.sinif {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.sinif ul {list-style:none; }
+.sinif ul li {float:left;border:1px solid #ddd; margin:5px; border-radius:4px}
+.sinif ul li a{padding:15px; text-decoration:none; display:block; color:black;}
+.sinif ul li a:hover{background:#0099FF; color:white;}
+
+#ustmenu {background:#eee; border:1px solid #ddd; padding: 10px; text-align: center; margin:10px;}
+#orta h3 {text-align: center}
+#kayitalani {border:1px solid #ccc; background: #eee}
+#tcad {
+	font-size: 25px;
+	color: #FFF;
+	font-weight: 600;
+	display: list-item;
+	list-style-type: none;
+	margin-left:10px;
+	margin-top:5px;
+	display:block;
+	text-shadow: -3px 1px 4px rgba(20, 20, 20, 99);
+	letter-spacing:1px;
+	line-height:25px;
+}
+
+#bannerarkaalani{
+	
+	background-image: url(../img/arkaust.png);
+	background-repeat: repeat-x;
+	min-width:1024px;
+
+}
+
+.banner {color:white; text-align: center; height: 75px}
