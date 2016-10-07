@@ -11,6 +11,7 @@
  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="js/jquery-ui.js"></script>
+<script src="scriptlerim.js"></script>
 <script type="text/javascript">
 	$(function(){
 		$("select[name]").change(function(){
@@ -39,9 +40,6 @@
 		var cocuksayisi = $("input[name=cocuksayisi]").val();
 		var esdurumu = $("select[name=esdurumu]").val();
 		var sendikadrm = $("input[name=sendikadrm]").val();
-
-		
-
 	}
 </script>
 </head>
